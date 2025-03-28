@@ -1,3 +1,5 @@
+[Link do Website no Vercel](https://pi-atividade01.vercel.app/)
+
 # Projeto Integrador - Desenvolvimento de Website 🚀
 
 Este projeto foi desenvolvido como parte da disciplina *Projeto Integrador* do curso de **Engenharia de Software**, ministrado pelo professor **Marinke**. O objetivo foi criar um site funcional utilizando tecnologias web essenciais, como HTML, CSS e JavaScript, aplicando os conhecimentos adquiridos no curso.
@@ -6,12 +8,12 @@ Este projeto foi desenvolvido como parte da disciplina *Projeto Integrador* do c
 
 O site criado possui as seguintes funcionalidades e requisitos:
 
-- **Formulário HTML**: Formulário com 5 campos diferentes. 📝
-- **Imagens e Links**: Inclusão de imagens e links para navegação entre as páginas. 🌐
-- **Código JavaScript**: Script JavaScript para interatividade. ⚙️
-- **Explicações Técnicas**: Definições de conceitos como Servidor FTP, JavaScript e Docker. 📚
-- **Tabela de Tecnologias**: Tabela com 2 colunas e 5 linhas, com nomes e descrições de tecnologias e linguagens. 💻
-- **Estilos com CSS**: Integração de estilos para personalizar a aparência. 🎨
+- **Formulário HTML**: Formulário com 5 campos diferentes. 
+- **Imagens e Links**: Inclusão de imagens e links para navegação entre as páginas. 
+- **Código JavaScript**: Script JavaScript para interatividade. ⚙
+- **Explicações Técnicas**: Definições de conceitos como Servidor FTP, JavaScript e Docker. 
+- **Tabela de Tecnologias**: Tabela com 2 colunas e 5 linhas, com nomes e descrições de tecnologias e linguagens. 
+- **Estilos com CSS**: Integração de estilos para personalizar a aparência. 
 
 ## Tecnologias Utilizadas 🛠️
 
