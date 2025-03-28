@@ -1,0 +1,11 @@
+.footer {
+    border: 1px solid rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: var(--black);
+    color: var(--font-color);
+    font-weight: 300;
+    font-size: 1em;
+}
