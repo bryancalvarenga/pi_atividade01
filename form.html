@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/js/loadHeaderFooter.js"></script>
+    <script src="/js/main.js"></script>
+    <title>Formulário - Projeto Integrador</title>
+</head>
+<body>
+    <div id="header"></div> <!--Header-->
+    <main>
+        <section class="form">
+            <h2 class="form__title">Formulário de Contato</h2>
+            <form id="form" class="form__content">
+                <label for="name">Nome Completo</label>
+                <input type="text" name="name" placeholder="Digite seu nome...">
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="seu@email.com">
+                <label for="course">Curso</label>
+                <select name="course">
+                    <option>Selecione um curso</option>
+                    <option>Engenharia de software</option>
+                    <option>Análise e desenvolvimento e sistemas</option>
+                    <option>Ciência da computação</option>
+                </select>
+                <label for="interest">Área de Interesse</label>
+                <input type="text" name="interest" placeholder="Ex: Desenvolvimento Front-End">
+                <label for="message">Mensagem</label>
+                <textarea rows="5" name="message" placeholder="Sua mensagem aqui..."></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    <div id="footer"></div> <!--Footer-->
+</body>
+</html>

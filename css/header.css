@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: var(--title-color);
+    display: flex;
+    gap: 40em;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+
+.header__logo {
+    font-weight: 600;
+    align-items: center;
+    color: var(--black);
+    font-size: 1.5em;
+    gap: 1em;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+#header_logo__icon {
+    font-size: 2em;
+}
+
+.header__navbar {
+    display: flex;
+    gap: 2em;
+}
+
+.header__navbar a {
+    text-decoration: none;
+    color: var(--black);
+    transition: 0.5s ease;
+}
+
+.header__navbar a:hover {
+    color: var(--font-color);
+}

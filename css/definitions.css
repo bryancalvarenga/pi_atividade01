@@ -1,0 +1,58 @@
+.definitions {
+    padding: 5em 0;
+    background-color: var(--black);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.definitions__title {
+    font-size: 2em;
+    letter-spacing: normal;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.definitions__content {
+    transition: transform 0.5s ease;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    border-radius: 2em;
+    padding: 3em;
+    color: var(--font-color);
+    border: 1px solid rgb(31, 31, 31);
+    width: 900px;
+    text-align: left;
+    background: hsla(0, 0%, 0%, 1);
+    background: linear-gradient(45deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 6%, 1) 100%);
+    background: -moz-linear-gradient(45deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 6%, 1) 100%);
+    background: -webkit-linear-gradient(45deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 6%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#101010", GradientType=1 );
+}
+
+.definitions__content:hover {
+    transform: scale(1.02) ;
+    cursor: pointer;
+    background: var(--black);
+}
+
+#definitions__icons {
+    color: var(--title-color);
+    font-size: 3em;
+}
+
+.definitions_content__text {
+    line-height: 1.5em;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.definitions_content__text h3 {
+    margin-bottom: 1em;
+    color: var(--title-color);
+    font-size: 1.5em;
+}
